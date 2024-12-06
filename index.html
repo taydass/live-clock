@@ -1,0 +1,39 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css" type="text/css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Live Clock</title>
+    </head>
+    <body>
+        <canvas id="my-canvas" width="500px" height="500px"></canvas>
+        <div class="form-container">
+            <h2>Settings for clock</h2>
+            <form action="" id="form" class="form">
+                <div class="form-input">
+                    <label for="face-color">Face Color</label>
+                    <input class="color-input" id="face-color" value="#ffffff" type="color">
+                </div>
+                <div class="form-input">
+                    <label for="border-color">Border Color</label>
+                    <input class="color-input" id="border-color" value="#83B8E5" type="color">
+                </div>
+                <div class="form-input">
+                    <label for="number-line-color">Number Line Color</label>
+                    <input class="color-input" id="number-line-color" value="#000359" type="color">
+                </div>
+                <div class="form-input">
+                    <label for="large-hands-color">Large Hands Color</label>
+                    <input class="color-input" id="large-hands-color" value="#800000" type="color">
+                </div>
+                <div class="form-input">
+                    <label for="second-hands-color">Second Hands Color</label>
+                    <input class="color-input" id="second-hands-color" value="#ff7f50" type="color">
+                </div>
+                <input type="submit" id="save-btn" value="save as image">
+            </form>
+        </div>
+    <script src="index.js"></script>
+    </body>
+    </html>
